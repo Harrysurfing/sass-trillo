@@ -12,7 +12,7 @@
 	font-size: 1.4rem;
 	height: 7rem;
 	background-color: white;
-	border-bottom: 1px solid var(--color-grey-light-2);
+	border-bottom: var(--seg-line);
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -22,7 +22,6 @@
 .content {
 	display: flex;
 	justify-content: flex-start;
-	height: 800px;
 }
 
 .sidebar {
@@ -36,4 +35,34 @@
 .hotel-view {
 	background-color: white;
 	flex: 1;
+}
+
+.detail {
+	display: flex;
+	padding: 4.5rem;
+	background-color: var(--color-grey-light-1);
+	border-bottom: var(--seg-line);
+}
+.description {
+	flex: 0 0 60%;
+	margin-right: 4.5rem;
+	padding: 3rem;
+	background-color: white;
+	box-shadow: var(--shadow-light);
+	font-size: 1.4rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	border-radius: 5px;
+}
+
+.user-reviews {
+	flex-grow: 1;
+	font-size: 1.4rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
